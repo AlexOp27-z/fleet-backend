@@ -1,0 +1,14 @@
+C:\Users\alexo\RiderProjects\Solution1\Csharp\obj\Debug\net8.0\Csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexo\RiderProjects\Solution1\Csharp\obj\Debug\net8.0\Csharp.AssemblyInfoInputs.cache
+C:\Users\alexo\RiderProjects\Solution1\Csharp\obj\Debug\net8.0\Csharp.AssemblyInfo.cs
+C:\Users\alexo\RiderProjects\Solution1\Csharp\obj\Debug\net8.0\Csharp.csproj.CoreCompileInputs.cache
+C:\Users\alexo\RiderProjects\Solution1\Csharp\bin\Debug\net8.0\Csharp.exe
+C:\Users\alexo\RiderProjects\Solution1\Csharp\bin\Debug\net8.0\Csharp.deps.json
+C:\Users\alexo\RiderProjects\Solution1\Csharp\bin\Debug\net8.0\Csharp.runtimeconfig.json
+C:\Users\alexo\RiderProjects\Solution1\Csharp\bin\Debug\net8.0\Csharp.dll
+C:\Users\alexo\RiderProjects\Solution1\Csharp\bin\Debug\net8.0\Csharp.pdb
+C:\Users\alexo\RiderProjects\Solution1\Csharp\obj\Debug\net8.0\Csharp.dll
+C:\Users\alexo\RiderProjects\Solution1\Csharp\obj\Debug\net8.0\refint\Csharp.dll
+C:\Users\alexo\RiderProjects\Solution1\Csharp\obj\Debug\net8.0\Csharp.pdb
+C:\Users\alexo\RiderProjects\Solution1\Csharp\obj\Debug\net8.0\Csharp.genruntimeconfig.cache
+C:\Users\alexo\RiderProjects\Solution1\Csharp\obj\Debug\net8.0\ref\Csharp.dll

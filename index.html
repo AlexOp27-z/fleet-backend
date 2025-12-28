@@ -1,0 +1,391 @@
+﻿<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Partener Alteg – Rezervări online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-container">
+        <div class="logo">
+            <span class="logo-mark">A</span>
+            <span class="logo-text">Studio Partener Alteg</span>
+        </div>
+        <button class="nav-toggle" aria-label="Deschide meniul">
+            ☰
+        </button>
+        <nav class="main-nav">
+            <ul class="nav-links">
+                <li><a href="#acasa">Acasă</a></li>
+                <li><a href="#despre">Despre</a></li>
+                <li><a href="#servicii">Servicii</a></li>
+                <li><a href="#echipa">Echipă</a></li>
+                <li><a href="#tarife">Tarife</a></li>
+                <li><a href="#recenzii">Recenzii</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#rezervare" class="btn btn-small btn-outline">Rezervă online</a>
+    </div>
+</header>
+
+<main>
+    <!-- HERO -->
+    <section id="acasa" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h1>Programări rapide prin platforma Alteg</h1>
+                <p>
+                    Studio modern de servicii, unde fiecare client își poate face
+                    rezervare online în câteva secunde. Optimizăm timpul, păstrăm
+                    calitatea și oferim o experiență plăcută de la primul click până la
+                    ultima vizită în locație.
+                </p>
+                <div class="hero-actions">
+                    <a href="#rezervare" class="btn">Rezervă acum</a>
+                    <a href="#despre" class="btn btn-ghost">Află mai multe</a>
+                </div>
+                <p class="hero-note">
+                    Partener oficial al platformei <strong>Alteg / YClients</strong> – sistem
+                    digital de gestionare a rezervărilor, clienților și serviciilor.
+                </p>
+            </div>
+            <div class="hero-card">
+                <div class="hero-card-header">
+                    <h2>Programări online</h2>
+                    <span class="badge">Demo</span>
+                </div>
+                <form class="booking-mini-form" id="demoBookingForm">
+                    <label>
+                        Nume și prenume
+                        <input type="text" id="demoName" placeholder="Ex: Popescu Ana" required>
+                    </label>
+                    <label>
+                        Serviciu
+                        <select id="demoService" required>
+                            <option value="">Selectează...</option>
+                            <option>Tuns & styling</option>
+                            <option>Manichiură & pedichiură</option>
+                            <option>Cosmetică facială</option>
+                            <option>Masaj & wellness</option>
+                        </select>
+                    </label>
+                    <label>
+                        Dată
+                        <input type="date" id="demoDate" required>
+                    </label>
+                    <label>
+                        Oră
+                        <input type="time" id="demoTime" required>
+                    </label>
+                    <button type="submit" class="btn btn-full">Simulează rezervarea</button>
+                    <p class="form-message" id="demoMessage"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- DESPRE -->
+    <section id="despre" class="section">
+        <div class="container section-grid">
+            <div>
+                <h2>Despre studio</h2>
+                <p>
+                    Studio Partener Alteg este o entitate economică orientată spre
+                    prestarea serviciilor în regim programat. Activitatea principală
+                    constă în oferirea de servicii personalizate (frumusețe, wellness,
+                    îngrijire personală sau alte servicii) pe bază de programare, astfel
+                    încât timpul clienților să fie valorificat eficient.
+                </p>
+                <p>
+                    Prin integrarea cu platforma <strong>Alteg / YClients</strong>, studio-ul
+                    gestionează într-un mod centralizat programările, calendarul
+                    specialiștilor, istoricul clienților și promoțiile active. Acest model
+                    de lucru reduce erorile, minimizează timp de așteptare și oferă o
+                    imagine clară asupra activității zilnice.
+                </p>
+                <p>
+                    Site-ul de prezentare are rolul de a explica serviciile oferite,
+                    avantajele rezervării online și de a ghida utilizatorul către
+                    programare, menținând în același timp o experiență UI/UX modernă,
+                    adaptată tuturor dispozitivelor.
+                </p>
+            </div>
+            <div class="info-card">
+                <h3>Date esențiale</h3>
+                <ul class="info-list">
+                    <li><span>Tip entitate:</span> Studio de servicii / salon partener Alteg</li>
+                    <li><span>Model activitate:</span> Servicii cu programare online</li>
+                    <li><span>Platformă:</span> Alteg / YClients (gestiune rezervări)</li>
+                    <li><span>Public țintă:</span> Clienți urbani, ocupați, orientați spre calitate</li>
+                    <li><span>Canale:</span> Site web + pagină de programări pe alteg.io</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICII -->
+    <section id="servicii" class="section section-alt">
+        <div class="container">
+            <h2>Servicii principale</h2>
+            <p class="section-intro">
+                Lista de mai jos este un exemplu de structurare a serviciilor pentru
+                site. În practică, acestea se sincronizează cu platforma Alteg, unde
+                sunt definite prețurile, durata și specialiștii.
+            </p>
+            <div class="cards-grid">
+                <article class="card">
+                    <h3>Tuns & Styling</h3>
+                    <p>
+                        Servicii de tuns și aranjare pentru femei și bărbați, cu
+                        consultanță privind forma și stilul potrivit.
+                    </p>
+                    <ul class="tag-list">
+                        <li>40–60 min</li>
+                        <li>Programare online</li>
+                        <li>Specialist dedicat</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h3>Manichiură & Pedichiură</h3>
+                    <p>
+                        Îngrijire completă pentru mâini și picioare, cu atenție la
+                        detalii, igienă și confortul clientului.
+                    </p>
+                    <ul class="tag-list">
+                        <li>60–90 min</li>
+                        <li>De la clasic la gel</li>
+                        <li>Pachete combinate</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h3>Cosmetică facială</h3>
+                    <p>
+                        Tratamente personalizate pentru diferite tipuri de ten, folosind
+                        produse profesionale și tehnologie modernă.
+                    </p>
+                    <ul class="tag-list">
+                        <li>45–90 min</li>
+                        <li>Diagnostic ten</li>
+                        <li>Plan de îngrijire</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h3>Masaj & Wellness</h3>
+                    <p>
+                        Sesiuni de relaxare sau recuperare, care ajută la reducerea
+                        stresului și îmbunătățirea stării generale.
+                    </p>
+                    <ul class="tag-list">
+                        <li>30–90 min</li>
+                        <li>Relaxare</li>
+                        <li>Terapie corporală</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ECHIPA -->
+    <section id="echipa" class="section">
+        <div class="container">
+            <h2>Echipa noastră</h2>
+            <p class="section-intro">
+                Echipa este formată din specialiști cu experiență, care își organizează
+                programul direct în platforma Alteg. Fiecare membru are propriul orar,
+                propriile servicii și istoricul clienților.
+            </p>
+            <div class="cards-grid team-grid">
+                <article class="card team-card">
+                    <h3>Maria Ionescu</h3>
+                    <p class="role">Stylist & Colorist</p>
+                    <p>
+                        Specializată în tunsori moderne, colorări complexe și
+                        transformări de look.
+                    </p>
+                </article>
+                <article class="card team-card">
+                    <h3>Andreea Pop</h3>
+                    <p class="role">Nail Artist</p>
+                    <p>
+                        Creează modele personalizate și oferă consultanță privind
+                        îngrijirea unghiilor.
+                    </p>
+                </article>
+                <article class="card team-card">
+                    <h3>Alexandru Radu</h3>
+                    <p class="role">Cosmetician</p>
+                    <p>
+                        Lucrează cu protocoale adaptate fiecărui tip de ten și urmărește
+                        rezultatele în timp.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- TARIFE -->
+    <section id="tarife" class="section section-alt">
+        <div class="container">
+            <h2>Exemple de tarife</h2>
+            <p class="section-intro">
+                În platforma Alteg, tarifele sunt configurate din panoul de administrare.
+                Mai jos este o prezentare orientativă pentru site.
+            </p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Pachet Basic</h3>
+                    <p class="price">de la 250 MDL</p>
+                    <ul>
+                        <li>Tuns simplu / manichiură clasică</li>
+                        <li>Programare online</li>
+                        <li>Notificare prin SMS sau e-mail</li>
+                    </ul>
+                </div>
+                <div class="pricing-card pricing-card-featured">
+                    <h3>Pachet Premium</h3>
+                    <p class="price">de la 450 MDL</p>
+                    <ul>
+                        <li>Servicii combinate (ex: tuns + styling)</li>
+                        <li>Prioritate la programare</li>
+                        <li>Consultanță personalizată</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <h3>Pachet Deluxe</h3>
+                    <p class="price">de la 700 MDL</p>
+                    <ul>
+                        <li>Transformare completă / pachet wellness</li>
+                        <li>Durată extinsă</li>
+                        <li>Plan de îngrijire recomandat</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RECENZII -->
+    <section id="recenzii" class="section">
+        <div class="container">
+            <h2>Recenziile clienților</h2>
+            <p class="section-intro">
+                Recenziile reale sunt colectate în platforma Alteg, unde clienții își pot
+                exprima opinia după vizită. În site, acestea pot fi afișate sub formă de
+                testimoniale.
+            </p>
+            <div class="cards-grid">
+                <article class="card">
+                    <p class="quote">
+                        „Mi-am făcut programarea online, iar în salon totul a fost gata
+                        la ora stabilită. Fără așteptare inutilă.”
+                    </p>
+                    <p class="quote-author">Irina, clientă fidelă</p>
+                </article>
+                <article class="card">
+                    <p class="quote">
+                        „Îmi place faptul că primesc notificare de reamintire înainte de
+                        programare. Este foarte comod.”
+                    </p>
+                    <p class="quote-author">Mihai, client nou</p>
+                </article>
+                <article class="card">
+                    <p class="quote">
+                        „Pot să îmi aleg specialistul preferat și să văd orele libere
+                        direct pe telefon.”
+                    </p>
+                    <p class="quote-author">Elena, clientă</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- REZERVARE -->
+    <section id="rezervare" class="section section-accent">
+        <div class="container rez-container">
+            <div>
+                <h2>Rezervă o vizită la studio</h2>
+                <p>
+                    Pentru rezervări reale, clienții sunt redirecționați către pagina
+                    oficială de programări a entității pe platforma Alteg. În cadrul
+                    acestui proiect, simulăm doar fluxul de rezervare pentru a demonstra
+                    integrarea UI/UX.
+                </p>
+                <ul class="rez-list">
+                    <li>Selectezi serviciul și specialistul;</li>
+                    <li>Alegi data și ora preferată;</li>
+                    <li>Primești confirmarea prin SMS sau e-mail;</li>
+                    <li>Poți gestiona ulterior reprogramările și anulările.</li>
+                </ul>
+                <a href="#acasa" class="btn btn-ghost-light">Înapoi la început</a>
+            </div>
+            <div class="rez-card">
+                <h3>Simulare rezervare</h3>
+                <form id="fullBookingForm" class="booking-form">
+                    <label>
+                        Nume și prenume
+                        <input type="text" id="fullName" placeholder="Ex: Popescu Ana" required>
+                    </label>
+                    <label>
+                        Telefon
+                        <input type="tel" id="fullPhone" placeholder="+373 6xx xxx xx" required>
+                    </label>
+                    <label>
+                        Serviciu
+                        <select id="fullService" required>
+                            <option value="">Selectează...</option>
+                            <option>Tuns & styling</option>
+                            <option>Manichiură & pedichiură</option>
+                            <option>Cosmetică facială</option>
+                            <option>Masaj & wellness</option>
+                        </select>
+                    </label>
+                    <label>
+                        Mesaj / preferințe
+                        <textarea id="fullMessage" rows="3" placeholder="Ex: Prefer programarea după ora 18:00"></textarea>
+                    </label>
+                    <button type="submit" class="btn btn-full">Trimite cererea de rezervare</button>
+                    <p class="form-message" id="fullMessageStatus"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+        <div class="container section-grid">
+            <div>
+                <h2>Contact</h2>
+                <p>
+                    Pentru detalii suplimentare despre servicii, colaborări sau întrebări
+                    legate de programări, ne poți contacta folosind datele de mai jos.
+                </p>
+                <ul class="info-list">
+                    <li><span>Telefon:</span> +373 (0)6xx xxx xx</li>
+                    <li><span>E-mail:</span> contact@studio-alteg-demo.md</li>
+                    <li><span>Adresă:</span> Chișinău, Republica Moldova</li>
+                    <li><span>Program:</span> Luni–Sâmbătă, 09:00–20:00</li>
+                </ul>
+            </div>
+            <div class="map-placeholder">
+                <p>Hartă integrată (exemplu)</p>
+                <p class="map-sub">
+                    În versiunea reală, aici poate fi un iframe Google Maps cu locația
+                    fizică a entității.
+                </p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <p>© <span id="year"></span> Studio Partener Alteg – Proiect demonstrativ Tehnologii Web.</p>
+        <p>Site de prezentare realizat în HTML, CSS și JavaScript, integrabil cu platforma Alteg.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
